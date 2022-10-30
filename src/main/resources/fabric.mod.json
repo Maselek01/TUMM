@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "tumm",
+  "version": "${version}",
+
+  "name": "T.U.U.M.",
+  "description": "The little sticky funky",
+  "authors": [
+    "Maselek (Lead developer, translator, coder"
+  ],
+  "contact": {
+    "sources": "https://github.com/fkodkfdokfodkf"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/tumm/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.maselek.tumm.TUMMMod"
+    ]
+  },
+  "mixins": [
+    "tumm.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

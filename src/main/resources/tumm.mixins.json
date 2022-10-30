@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.maselek.tumm.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "TUMMMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
